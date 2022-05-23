@@ -1,0 +1,218 @@
+.crimson {
+    color: crimson;
+}
+
+h1{
+    color:black;
+}
+
+
+
+   body {
+    background-image: url("https://t4.ftcdn.net/jpg/02/54/06/69/360_F_254066964_h5St10OjSnlB6LVLdzY9dJb0Q6VT8Vdf.jpg" );
+    background-repeat: no-repeat;
+    background-color: base;
+    background-size: 380%;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:lightslategray;
+    border-radius: 20px;
+  }
+  
+  li {
+    float: left;
+    border-right:2px solid grey;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display:block;
+    color:aquamarine;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration:underline;
+  }
+  
+  li a:hover:not(.active) {
+    background-color:darkcyan;
+  }
+  
+  .active {
+    background-color:crimson;
+  }
+
+  li {
+    float: left;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color:aliceblue;
+    text-align: center;
+    padding: 45px 60px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: crimson;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: lightslategray;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  
+
+  /* Culoarea backgroundului */
+.topnav {
+  overflow: hidden;
+  background-color: crimson;
+}
+
+/* Stilarea */
+.topnav a {
+  float: right;
+  display: block;
+  color:aquamarine;
+  text-align: right;
+  padding: 25px 16px;
+  text-decoration:underline;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color:antiquewhite;
+  color:blueviolet;
+}
+
+/* Style the "active" element to highlight the current page */
+.topnav a.active {
+  background-color:beige;
+  color: white;
+}
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+  float: right;
+  padding: 10px;
+  border:#2196F3;
+  margin-top: 15px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+@media screen and (max-width: 650px) {
+  .topnav a, .topnav input[type=text] {
+    float: none;
+    display: block;
+    text-align: right;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 10px solid crimson;
+  }
+
+  .topnav input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color:brown;
+    background-image: url('mb');
+    background-position: 15px 15px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 1s ease-in-out;
+    transition: width 1s ease-in-out;
+  }
+  
+  
+  /* When the input field gets focus, change its width to 100% */
+  .topnav input[type=text]:focus {
+    width: 100%;
+  
+  }
+
+
+}
+
+
+html {
+  border: 1px ;
+  margin: 5px 0px 100px 5px;
+}
+
+div {
+  padding: 20px;
+  margin: 5px;
+  
+  /* other styling */
+  background-color: #33475b;
+  border-radius: 17px;
+  color: white;
+  font-family: Avenir;
+}
+
+
+img {
+  border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+ 
+  
+ 
+    
+
+
+  
